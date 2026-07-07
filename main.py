@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = 8980705868:AAH9N5gg2anmoOhWE6Xk4nwVe1n6jBw0VbM
+TOKEN = "8980705868:AAH9N5gg2anmoOhWE6Xk4nwVe1n6jBw0VbM"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привет! Я AI-бот Benom 🤖")
